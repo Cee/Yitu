@@ -1,0 +1,161 @@
+/* define bootstrap 5 columns */
+.col-xs-1-5, .col-sm-1-5, .col-md-1-5, .col-lg-1-5 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.col-xs-1-5 {
+	width: 20%;
+	float: left;
+}
+@media (min-width:768px) {
+	.col-sm-1-5 {
+		width: 20%;
+		float: left;
+	}
+}
+@media (min-width:992px) {
+	.col-md-1-5 {
+		width: 20%;
+		float: left;
+	}
+}
+@media (min-width:1200px) {
+	.col-lg-1-5 {
+		width: 20%;
+		float: left;
+	}
+}
+
+
+body {
+	padding-top: 50px;
+}
+
+/* nav */
+nav {
+	font-weight: bold;
+}
+nav li {
+	width: 120px;
+	height: 50px;
+	text-align: center;
+	font-size: 12px;
+}
+.underline {
+	display: none;
+}
+.nav-item:hover .underline {
+	height: 1px;
+	width: 100%;
+	display: block;
+	margin: 5px auto 0 auto;
+	background-color: white;
+}
+.navbar-right .dropdown-menu, .navbar-right .dropdown-menu ul, .navbar-right .dropdown-menu li {
+	float: none;
+	min-width: 100%;
+	width: 100%;
+	right: auto;
+	text-align: center;
+}
+.navbar-right .dropdown-menu li {
+	margin: 0 auto;
+	padding: 5px 0;
+	height: 40px;
+	width: auto;
+}
+.dropdown-hover:hover .dropdown-menu {
+	display: block;
+}
+.dropdown-hover:hover, .dropdown-hover:hover .dropdown-menu {
+	background: rgba(0, 91, 170, .8);
+}
+.dropdown-hover:hover .dropdown-menu a {
+	background: rgba(255, 255, 255, 0);
+}
+.dropdown-hover:hover .dropdown-menu a:hover {
+	border: 0px;
+}
+.dropdown-hover:hover .nav-item, .dropdown-hover:hover .nav-item:hover, .dropdown-hover:hover .dropdown-menu .nav-item, .dropdown-hover:hover .dropdown-menu .nav-item:hover {
+	color: white;
+}
+
+/* header */
+header {
+	color: #fff;
+	text-align: center;
+	padding: 100px 0;
+	height: 375px;
+}
+header h1 {
+	font-size: 200%;
+	padding: 40px;
+	display: inline-block;
+	line-height: 150%;
+}
+
+/* article */
+article:nth-child(odd) {
+	background: white;
+}
+
+article:nth-child(even) {
+	background: #F5F5F5;
+}
+
+/* footer */
+footer {
+	background: #F5F5F5;
+}
+footer .container {
+	padding-top: 20px;
+}
+#footer-logo, #footer-qrcode {
+	display: block;
+	width: 80%;
+	margin: 5px auto;
+}
+footer li {
+	list-style-type: none;
+	font-size: 12px;
+	height: 40px;
+	text-align: center;
+	display: block;
+}
+footer li:first-child {
+	font-weight: bold;
+}
+footer li a {
+	color: black;
+}
+footer li:hover a, footer li a:hover {
+	color: rgb(0, 91, 170);
+	text-decoration: none;
+}
+footer li:hover .underline, footer li:hover a:hover .underline {
+	margin: 0 auto;
+	height: 1px;
+	display: block;
+	width: inherit;
+	margin: 5px auto 0 auto;
+	background: rgb(0, 91, 170);
+}
+footer p {
+	text-align: center;
+}
+
+/* btn */
+.btn-main {
+	color: #005BAA;
+	background-color: white;
+	border: #005BAA solid 1px;
+	border-radius: 0;
+}
+.btn-main:hover {
+	color: white;
+	background-color: #005BAA;
+	border: white solid 1px;
+	border-radius: 0;
+}
