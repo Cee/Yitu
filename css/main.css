@@ -159,3 +159,11 @@ footer p {
 	border: white solid 1px;
 	border-radius: 0;
 }
+
+/* detail */
+.detail-h2 {
+	text-align: center;
+	font-size: 150%;
+	line-height: 150%;
+	margin: 40px 0;
+}
