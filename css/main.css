@@ -95,6 +95,7 @@ header h1 {
 	padding: 40px;
 	display: inline-block;
 	line-height: 150%;
+	min-width: 30%;
 }
 
 /* article */
