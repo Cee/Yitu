@@ -100,10 +100,12 @@ header h1 {
 
 /* article */
 article:nth-child(odd) {
+	padding-top: 20px;
 	background: white;
 }
 
 article:nth-child(even) {
+	padding-top: 20px;
 	background: #F5F5F5;
 }
 
